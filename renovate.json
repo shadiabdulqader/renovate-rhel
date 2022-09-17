@@ -6,7 +6,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["registry.access.redhat.com/ubi8/ubi-minimal"],
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.*(?<patch>\\d*)-(?<build>\\d+)?$"
+      "versioning": "regex:[\s\S]+"
     }
   ]
 }
